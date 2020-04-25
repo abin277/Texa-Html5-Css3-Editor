@@ -12,7 +12,7 @@ Html and Css Preview is Available.<br>
 Dark Mode is Available<br>
 <li><b>Custom Font Size:</b></li>
 You Can choose Custom Font Size.<br>
-(maximum size 23(can be changed if You Change the code))
+(maximum size 24(can be changed if You Change the code))
 <li><b>Custom Font Color:</b></li>
 You Can Choose Custom Font Color.<br>
 Black(Default),VIBGYOR Colors Added.<br>
