@@ -1,0 +1,13 @@
+
+textarea{
+color:black;
+font-size:13px;
+width:100%;
+border-radius:9pt;
+padding-right:2px;
+}
+#editor-title
+{
+font-size:22pt;
+font-family: 'Gaegu', cursive;
+}
