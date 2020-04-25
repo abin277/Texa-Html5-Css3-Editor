@@ -1,6 +1,7 @@
 <h1> &gt;|Texa:Html5-Css3-Editor</h1>
 <p>Texa is a tiny <b>WEB IDE</b> For Html and Css.<br>
-Texa is created using Html,Css and Javascript.Texa cannot run
+Texa is created using Html,Css and Javascript.
+  <br>Texa cannot run
 JavaScript.<br>
 </p>
 <h3>Features</h3>
