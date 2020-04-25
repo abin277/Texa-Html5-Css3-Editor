@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>&gt;|Texa:Html5+Css3 Editor</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@700&family=Handlee&display=swap" rel="stylesheet">
+
+<style>
+.dark-mode {
+  background-color:#1a1812;
+  color: white;
+}
+    
+</style>
+</head>
+<body>
+    <div class="heading">
+<div class="head">
+&gt;|Texa:Html5+Css3 Editor
+</div><br>
+</div>
+<!--Dark Mode-->
+<div class="functions">
+    
+<button onclick="changeTheme()" id="theme">Dark Mode</button> 
+
+<!--Color Selector-->
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Colors</button>
+  <div id="myDropdown" class="dropdown-content">
+    <button onclick="clrdefault()">Default(Black)</button>
+    <button onclick="clrViolet()">Violet</button>
+    <button onclick="clrIndigo()">Indigo</button>
+    <button onclick="clrBlue()">Blue</button>
+    <button onclick="clrGreen()">Green</button>
+    <button onclick="clrYellow()">Yellow</button>
+    <button onclick="clrOrange()">Orange</button>
+    <button onclick="clrRed()">Red</button>
+  <button onclick="clrCustom()">Custom color</button>
+  </div>
+  </div>
+  <!--Custom Font SIZE-->
+  <button onclick="customFontSize()" id="font">Font Size</button>
+  <!--Custom FONT STYLE-->
+    <div class="dropdown2">
+  <button class="dropdownButton">Font Style</button>
+  <div class="dropdownContent">
+  <button onclick="fontmono()">MonoSpace(Default)</button>
+  <button onclick="fontSans()">Sans-Serif</button> 
+  <button onclick="fontCursive()">Cursive</button>
+  </div>
+</div>
+<!--Editor STARTS-->
+<div class="editor"><br>
+<span id="editor-title">Editor:</span><br><br>
+<!--Editor Field Starts-->
+<textarea cols="39" rows="18" id="field">
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style>
+
+</style>
+</head>
+<body>
+
+</body>
+</html>
+</textarea>
+<br>
+<!--Editor Field Ends-->
+<center>
+<button  class="preview-btn" onclick="result()">Preview</button>
+</center></div>
+<!--Editor ENDS-->
+<!--Output STARTS-->
+<span id="editor-title">Output:</span><br><br>
+<div id="Preview">
+</div>
+<!--Output ENDS-->
+<style type="text/css">
+textarea{
+color:black;
+}
+</style>
+<!--Styles Starts From Here-->
+<link href="Styles/editor.css" type="text/css" rel="stylesheet"/>
+<link href="Styles/function.css" type="text/css" rel="stylesheet"/>
+<link href="Styles/preview.css" type="text/css" rel="stylesheet"/>
+<link href="Styles/first-dropdown.css" type="text/css" rel="stylesheet"/>
+<link href="Styles/second-dropdown.css" type="text/css" rel="stylesheet"/>
+<!--Style ENDS-->
+<!--Scipts Start From Here-->
+<!--Result Display Script-->
+<script type="text/javascript" src="Scripts/result.js">
+</script>
+<!--Color Changing script-->
+<script type="text/javascript" src="Scripts/colors.js">
+</script>
+<!--Dropdown Script-->
+<script type="text/javascript" src="Scripts/dropdown.js">
+</script>
+<!--Dark mode-->
+<script type="text/javascript" src="Scripts/dark-mode.js">
+</script>
+<!--Font Changing Script-->
+<script type="text/javascript" src="Scripts/font.js">
+</script>
+<!--Script Ends-->
+</body>
+</html>
