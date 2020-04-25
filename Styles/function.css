@@ -1,0 +1,17 @@
+
+#theme,#font{
+color:white;
+padding:9px;
+font-size:14px;
+cursor:pointer;
+background-color: #3498DB;
+border-radius:12pt;
+border:none;
+}
+.head{
+font-size:23pt;
+display:inline;
+word-space:no-wrap;
+overflow:scroll;
+font-family: 'Gaegu', cursive;
+}

@@ -1,0 +1,15 @@
+
+.preview-btn{
+color:white;
+border-radius:12pt;
+background-color:#3498DB;
+font-size:14px;
+padding:9px;
+border:none;
+}
+#Preview{
+border:2px solid;
+border-color:red;
+border-width:1px;
+border-radius:1px;
+}
