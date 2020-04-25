@@ -1,4 +1,6 @@
 <h1> &gt;|Texa:Html5-Css3-Editor</h1>
+<img src="https://github.com/Danielabraham7/Texa-Html5-Css3-Editor/blob/master/images/IMG_20200425_143418_328.jpg"
+height="500px" width="450px">
 <p>Texa is a tiny <b>WEB IDE</b> For Html and Css.<br>
 Texa is created using Html,Css and Javascript.
   <br>Texa cannot run
