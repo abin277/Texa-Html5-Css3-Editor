@@ -1,4 +1,7 @@
-
+/**
+//Text Editor
+//Field
+**/
 textarea{
 color:black;
 font-size:13px;
@@ -6,6 +9,9 @@ width:100%;
 border-radius:9pt;
 padding-right:2px;
 }
+/*
+The Editor Title
+*/
 #editor-title
 {
 font-size:22pt;
