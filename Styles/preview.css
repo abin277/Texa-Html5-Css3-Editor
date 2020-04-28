@@ -1,4 +1,7 @@
 
+/**
+Preview Button Change
+**/
 .preview-btn{
 color:white;
 border-radius:12pt;
@@ -7,6 +10,9 @@ font-size:14px;
 padding:9px;
 border:none;
 }
+/**
+PrevIew Field 
+**/
 #Preview{
 border:2px solid;
 border-color:red;
